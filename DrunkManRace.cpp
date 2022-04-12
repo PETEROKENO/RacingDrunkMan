@@ -13,7 +13,7 @@ int main(){
 	cout<<"Please Enter a letter between a-z"<<endl;
     cin>>x;
 
-    while(position>1 && position <size && sleep < 100000){
+    while(position>1 && position <size && sleep < 1000000){
         cout<<"Start";
            for(int i =0;i<size;i++){
                if(i ==position){
